@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-first-section d-flex flex-row  ms-5 mt-4">
+                <div class="brand mx-2">
+                    <img src="Asset/olx-logo-vector.png" height="40px">
+                </div>
+
+                <div class="d-flex ms-2">
+                    <div class="car mx-2 rounded-circle text-center">
+                        <img src="Asset/car.svg" class="img-fluid mt-2">
+                    </div>
+                    <p class="fw-bold mt-2">Motors</p>
+                </div>
+
+                <div class="d-flex ms-2">
+                    <div class="building mx-2 rounded-circle text-center">
+                        <img src="Asset/building.svg" class="img-fluid mt-2">
+                    </div>
+                    <p class="fw-bold mt-2">Property</p>
+                </div>
+            </div> <!--header-first-section  ENDS-->
+
+        </div> <!--Container ends-->
+
+            <!-- <div class="header-second-section mt-3 d-flex">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="row">
+
+                        <div class="col-lg-4">
+                            <ion-icon name="location-outline" class="icon"></ion-icon>
+                            <input type="text" placeholder="Location" class="border-0">
+                            <ion-icon name="chevron-down-outline" class="icon"></ion-icon>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="input-group flex-nowrap search">
+                                <input type="text" class="form-control"
+                                    placeholder="Find Cars, Mobile Phones and more..." aria-label="Username"
+                                    aria-describedby="addon-wrapping">
+                                <span class="input-group-text bg-dark" id="addon-wrapping"><ion-icon
+                                        name="search-outline" style="color: white;"></ion-icon></span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="login-container text-center mt-2">
+                                <a href="#" class="text-dark fw-bold login text-decoration-none">LOGIN</a>
+                            </div>
+                            <button class="SELL-BUTTON border-0  ms-4">
+                                <div class="sell-btn d-flex">
+                                    <img src="Asset/add-icon.svg" class="img-fluid">
+                                    <span class="ps-2 fw-bold">SELL</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div> row ends
+                </div>container ENDS
+            </div> -->
+
+            <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    ALL CATEGORIES
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    Mobile Phones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Motorcycles
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Houses
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Video-Audios
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tablets
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Land & Plots
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div> <!--Nav container ends-->
+        
+    </header>
+
+    <!-- Categories  -->
+    <div class="w-75 mx-auto mt-5">
+        <div class="row row-cols-lg-7">
+            <h4 class="fw-bold my-4">All Categories</h4>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/mobiles.8c768c96bfde33f18fcf5af2a8b9cf71.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Mobiles</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/vehicles.29fb808d5118f0db56f68a39ce5392e2.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Vehicles
+                    </p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Property For Sale</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/property-for-rent.8436595fbaa90d47f0178006f57090a8.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Property For Rent</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Electronics & Home Appliances</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Bikes</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/business-industrial-agriculture.704a6ffb9081bc94b11c102cc613670f.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Business, Industrial & Agriculture</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/services.dc6aef196c0403dc61b0ee813f66fa5b.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Services</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center "
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/jobs.79e6136dda02111cf8e7afe26b9e0f93.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Jobs</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/animals.62d396e85f7523dbc8ff23889fdd5c31.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Animals</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Furniture & Home Decor</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Fashion & Beauty</p>
+                </div>
+            </div>
+
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Books, Sports & Hobbies</p>
+                </div>
+            </div>
+            <div class="col category">
+                <div class="mx-2 d-flex flex-column justify-content-center align-items-center text-center"
+                    style="width: 90px;">
+                    <img src="https://www.olx.com.pk/assets/kids.cd8d8864804f1c35dd6a7df68268a48d.png"
+                        class="img-fluid rounded-circle">
+                    <p class="fw-bold mt-2">Kids</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Categories end -->
+
+    <footer>
+        <hr>
+        <div class="container">
+        <div class="row gy-3">
+
+            <div class="col-md-2 col-12 d-flex flex-column text-start">
+                <p class="fw-bold ">POPULAR CATEGORIES</p>
+                <a href="#">Cars</a>
+                <a href="#">Flats for rent</a>
+                <a href="#">Mobile Phones</a>
+                <a href="#">Jobs</a>
+            </div>
+
+            <div class="col-md-2 col-12 d-flex flex-column text-start">
+                <p class="fw-bold ">TRENDING SEARCHES</p>
+                <a href="#">Bikes</a>
+                <a href="#">Watches</a>
+                <a href="#">Books</a>
+                <a href="#">Dogs</a>
+            </div>
+
+            <div class="col-md-2 col-12 d-flex flex-column text-start">
+                <p class="fw-bold ">ABOUT US</p>
+                <a href="#">About Dubizzle Group</a>
+                <a href="#">OLX Blog</a>
+                <a href="#">Contact Us</a>
+                <a href="#">OLX for Businesses</a>
+            </div>
+
+            <div class="col-md-2 col-12 d-flex flex-column text-start">
+                <p class="fw-bold ">OLX</p>
+                <a href="#">Help</a>
+                <a href="#">Sitemap</a>
+                <a href="#">Terms of use</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="col-md-4 col-12">
+                <div class="">
+                    <p class="fw-bold fs-5">Follow Us</p>
+                    <div>
+                        <img src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg" width="24px">
+                        <img src="https://www.olx.com.pk/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg" width="24px">
+                        <img src="https://www.olx.com.pk/assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg" width="24px">
+                        <img src="https://www.olx.com.pk/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg" width="24px">
+                    </div>
+                </div>
+                <div class="my-3">
+                    <img src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg" width="80px">
+                    <img src="https://www.olx.com.pk/assets/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg" width="80px">
+                    <img src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg" width="80px">
+                </div>
+            </div>
+
+        </div>
+    </div><!--Container ENDS-->
+    <div class="footer-end mt-4">
+        <p class="text-end me-5 mt-2">Free Classifieds in Pakistan . &copy 2006-2024 OLX</p>
+    </div>
+    </footer>
+
+    <!-- Bootstrap script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Ionicons Icons  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
