@@ -1,3 +1,11 @@
+/* Common Styling  */
+.common-heading{
+font-weight: 900;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+/*----------------------------*/
 .car,
 .building {
     width: 40px;
@@ -18,17 +26,112 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(74, 182, 206) !important;
 }
-/* Categories */
-.category:hover img{
-    transform: scale(1.1);
-    border-radius: 10%;
-    box-shadow: 2px 2px 2px black;
+
+.header-second-section{
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;   
 }
-.category:hover p{
+
+.header-second-section .locatin{
+    width: 20vw;
+    height: 40px;
+    border: 0.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.header-second-section .search{
+    width: 45vw;
+    height: 40px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.bottons{
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10px; */
+}
+.sell-btn {
+    background-image: url('../Asset/button-border.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-position: center; */
+}
+.sell-btn  img{
+    width: 20px;
+}
+.sell-btn  span{
+font-size: 15px;
+}
+
+
+/* Categories */
+.category:hover img {
+    /* transform: scale(1.1);
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px black; */
+}
+
+.category:hover p {
     /* font-size: 17px; */
 }
-.category{
+
+.category {
     transition: all .3s ease-in;
+}
+
+.cat-card {
+    width: 140px;
+}
+
+.cat-card img {
+    width: 90px;
+}
+
+/* ALL Cards STyling   */
+
+.card {
+    border: none;
+}
+.card-content{
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.card-details{
+    padding: 10px;
+}
+.card-content .image{
+    height: 120px;
+}
+.card-content .image img{
+    border-radius: 5px 5px 0px 0px;
+    height: 130px;
+    width: 100%;
+}
+.card-content .price{
+    font-weight: 600;
+}
+.card-content .add-fav-icons{
+    font-size: 25px;
+}
+.card-content .mob-details{
+    font-size: 15px;
+}
+.card-content .location{
+    font-size: 13px;
+}
+.card-content .date{
+    font-size: 12px;
 }
 
 /* FOOTER STYLING */
@@ -46,11 +149,12 @@ footer .row a {
     color: black;
     text-decoration: none;
 }
-.footer-end{
+
+.footer-end {
     background-color: #002f34;
     color: white;
     font-weight: 600;
-    font-size:12px;
+    font-size: 12px;
     width: 100%;
     padding: 10px;
 }
