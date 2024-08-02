@@ -1,10 +1,28 @@
+/* Work sans fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Lora fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*======================
     Common Styling  
 ======================*/
-.common-heading{
-font-weight: 900;
-margin-top: 40px;
-margin-bottom: 40px;
+
+:root {
+    --link-hover: rgb(41, 186, 244);
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.common-heading {
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Lora", serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* ALL Cards STyling   */
@@ -12,35 +30,45 @@ margin-bottom: 40px;
 .card {
     border: none;
 }
-.card-content{
+
+.card-content {
     margin: 5px;
-    border: 1px solid gray;
+    border: 1px solid rgb(173, 167, 167);
     border-radius: 5px;
 }
-.card-details{
+
+.card-details {
     padding: 10px;
+    font-family: "Work Sans", sans-serif;
 }
-.card-content .image{
+
+.card-content .image {
     height: 120px;
 }
-.card-content .image img{
-    border-radius: 5px 5px 0px 0px;
+
+.card-content .image img {
+    border-radius: 3px 3px 0px 0px;
     height: 130px;
     width: 100%;
 }
-.card-content .price{
+
+.card-content .price {
     font-weight: 600;
 }
-.card-content .add-fav-icons{
+
+.card-content .add-fav-icons {
     font-size: 25px;
 }
-.card-content .mob-details{
+
+.card-content .mob-details {
     font-size: 15px;
 }
-.card-content .location{
+
+.card-content .location {
     font-size: 13px;
 }
-.card-content .date{
+
+.card-content .date {
     font-size: 12px;
 }
 
@@ -50,7 +78,16 @@ margin-bottom: 40px;
 /*======================
     HEADER Styling  
 ======================*/
-.sticky_nav{
+.header-first-section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.brand img {
+    height: 40px;
+}
+
+.sticky_nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -61,7 +98,7 @@ margin-bottom: 40px;
     height: 130px;
 }
 
-.nav-container{
+.nav-container {
     margin-top: 120px;
     margin-bottom: 20px;
 }
@@ -84,16 +121,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(74, 182, 206) !important;
+    color: var(--link-hover) !important;
 }
 
-.header-second-section{
+.header-second-section {
     display: flex;
-    flex-direction: row; 
-    gap: 20px;   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-.header-second-section .locatin{
+.header-second-section .locatin {
     width: 20vw;
     height: 40px;
     border: 0.5px solid black;
@@ -102,19 +141,22 @@ nav ul li a:hover {
     justify-content: space-around;
     border-radius: 5px;
 }
-.header-second-section .search{
+
+.header-second-section .search {
     width: 45vw;
     height: 40px;
     border: 0.5px solid black;
     border-radius: 5px;
 }
-.bottons{
+
+.bottons {
     width: 18vw;
     display: flex;
     align-items: center;
     justify-content: center;
     /* margin-left: 10px; */
 }
+
 .sell-btn {
     background-image: url('../Asset/button-border.svg');
     background-repeat: no-repeat;
@@ -126,38 +168,56 @@ nav ul li a:hover {
     align-items: center;
     /* background-position: center; */
 }
-.sell-btn  img{
+
+.sell-btn img {
     width: 20px;
 }
-.sell-btn  span{
-font-size: 15px;
+
+.sell-btn span {
+    font-size: 15px;
 }
 
 /* << DROPDOWN STYLING >> */
-.dropdown-menu-container{
+.dropdown-menu-container {
     padding: 20px;
     width: 90vw;
 }
-.dropdown-menu li{
+
+.dropdown-menu li {
     list-style-type: none;
     font-size: 13px;
+    cursor: pointer;
 }
-.nav-item-heading{
+
+.dropdown-menu li:hover {
+    color: var(--link-hover);
+}
+
+.nav-item-heading {
     font-weight: bold;
     margin: 10px 0;
 }
 
-/* CATEGORY STYLING */
-.category {
-    transition: all .3s ease-in;
+/* CAROUSEL */
+.carousel-inner {
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
 }
 
+/* CATEGORY STYLING */
 .cat-card {
     width: 140px;
 }
 
 .cat-card img {
     width: 90px;
+}
+
+.cat-name {
+    margin-top: 7px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 /*======================
@@ -185,4 +245,5 @@ footer .row a {
     font-size: 12px;
     width: 100%;
     padding: 10px;
+    text-align: end;
 }

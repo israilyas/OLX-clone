@@ -1,0 +1,64 @@
+/* For Medium Screens  */
+@media (max-width:768px) {
+
+    /*====================
+    Header responsive code
+    ======================*/
+    .brand img {
+        height: 30px;
+    }
+    .sticky_nav {
+        height: 200px;
+    }
+
+    .nav-container {
+        margin-top: 200px;
+    }
+
+    .bottons {
+        display: none;
+    }
+
+    .header-first-section {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .car,
+    .building {
+        width: 30px;
+    }
+
+    .car img,
+    .building img {
+        width: 20px;
+    }
+
+    .first-section-text {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 3px;
+    }
+
+    .header-second-section {
+        flex-direction: column;
+    }
+
+    .header-second-section .locatin {
+        width: 90%;
+    }
+
+    .header-second-section .search {
+        width: 90%;
+    }
+
+    /* CAROUSEL */
+    .carousel-item img{
+        height: 120px;
+        width: 100%;
+    }
+    /* FOOTER */
+    .footer-end {
+        text-align: center;
+    }
+}
