@@ -45,11 +45,12 @@
     }
 
     .header-second-section .locatin {
-        width: 90%;
+        width: 90vw;
     }
 
     .header-second-section .search {
-        width: 90%;
+        border: none;
+        width: 90vw;
     }
 
     /* CAROUSEL */
