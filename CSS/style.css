@@ -29,6 +29,7 @@ body {
 
 .card {
     border: none;
+    cursor: pointer;
 }
 
 .card-content {
@@ -78,11 +79,12 @@ body {
 /*======================
     HEADER Styling  
 ======================*/
-.header-first-section{
+.header-first-section {
     display: flex;
     flex-direction: row;
     margin-left: 20px;
 }
+
 .brand img {
     height: 40px;
 }
@@ -218,6 +220,29 @@ nav ul li a:hover {
     margin-top: 7px;
     font-size: 14px;
     font-weight: 700;
+}
+
+/* second last images container  */
+.second-last-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+.second-last-container .third-col{
+    vertical-align: middle;
+}
+.container-col{
+    padding: 30px;
+}
+.jazz-ad{
+    width: 100%;
+    /* text-align: center; */
+}
+.jazz-ad>img {
+    width: 70%;
 }
 
 /*======================

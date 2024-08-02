@@ -58,6 +58,12 @@
         height: 120px;
         width: 100%;
     }
+
+    .jazz-ad>img {
+        width: 90%;
+        height: 170px;
+    }
+
     /* FOOTER */
     .footer-end {
         text-align: center;
