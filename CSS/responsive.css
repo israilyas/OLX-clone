@@ -63,6 +63,9 @@
         width: 90%;
         height: 170px;
     }
+    .third-col{
+        margin-top: 0px;
+    }
 
     /* FOOTER */
     .footer-end {

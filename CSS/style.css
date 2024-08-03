@@ -237,6 +237,9 @@ nav ul li a:hover {
 .container-col{
     padding: 30px;
 }
+.third-col{
+    margin-top: 50px;
+}
 .jazz-ad{
     width: 100%;
     /* text-align: center; */
